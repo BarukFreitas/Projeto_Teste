@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <script>
+
+
+            var usuarioPadrao = ('Admin');
+            var senhaPadrao = (1234);
+            function menu() {
+                var opcao = prompt('Bem vindo, Informe 1 para logar ou 2 para realizar cadastro');
+                    if(opcao == '1'){
+                        var usuarioLogin = prompt('Informe o usuario: '); 
+                        var senhaLogin = prompt('Informe a senha: ');
+                            while (usuarioLogin !== usuarioPadrao) {
+                            alert('Usuario incorreto, tente novamente: ');
+                            usuarioLogin = prompt('Informe o usuario: ');
+                            }
+                            while (senhaLogin !== senhaPadrao) {
+                            alert('Senha incorreta, tente novamente: ');
+                            senhaLogin = prompt('Informe a senha: ');
+                            }
+                    }
+            }
+
+            menu();
+
+        </script>
+    </body>
+</html>
