@@ -3,8 +3,8 @@
         <script>
 
 
-            var usuarioPadrao = ('Admin');
-            var senhaPadrao = (1234);
+            const usuarioPadrao = ('Admin');
+            const senhaPadrao = (1234);
             function menu() {
                 var opcao = prompt('Bem vindo, Informe 1 para logar ou 2 para realizar cadastro');
                     if(opcao == '1'){
@@ -15,8 +15,8 @@
                             usuarioLogin = prompt('Informe o usuario: ');
                             }
                             while (senhaLogin !== senhaPadrao) {
-                            alert('Senha incorreta, tente novamente: ');
                             senhaLogin = prompt('Informe a senha: ');
+                            alert('Senha incorreta, tente novamente: ');
                             }
                     }
             }
