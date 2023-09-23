@@ -2,9 +2,15 @@ h2 {
     text-align: center;
     text-decoration: double;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}   
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translate(-20%);
+}
 
 div {
+    border-radius: 5%;
     width: 600px;
     height: 400px;
     position: absolute;
@@ -18,12 +24,15 @@ div {
 }
 
 button {
-    transform: translate(0%, 70%);
+    background-color: rgb(69, 69, 71);
+    color: rgb(255, 255, 255);
+    transform: translate(0%, 460%);
     position: relative;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(114, 114, 114);
-    border-radius: 12%;
+    font-size: 16px;
+    padding: 12px 32px;
+    font-weight: 200;
+    border-radius: 8%;
+    border: none;
 }
 
 table {
