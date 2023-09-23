@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 <body>
+    <script src="Script/Validação.js"></script>
     <h2>Login de Usuário</h2>
-    <form method="get" name="cadastro_jogos">
+    <form method="get" name="cadastro_jogos" onsubmit="return validacao()">
     <table>
         <tr>
             <td><label for="login">Login: </label></td>
