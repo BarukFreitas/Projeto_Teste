@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Jogos</title>
     <link rel="stylesheet" href="static/css/style.css" type="text/css">
     
 </head>
 <body>
-    <h2>Título da Tabela</h2>
+    <h2>Cadastro de Jogos</h2>
     <form method="get" name="cadastro_jogos">
     <table>
         <thead>
             <tr>
-                <td>Nome</td>
-                <td>Ano de Lançamento</td>
-                <td>Valor</td>
+                <td>
+                    <label for="nome">Nome do jogo: </label>
+                    <input type="text" id='nome' name = 'nome'>
+
+                </td>
             </tr>
-            <label for="nome">Nome</label>
-            <label for="nome">Nome</label>
-            <label for="nome">Nome</label>
+            <tr>
+                <td>
+                    <label for="nome">Ano do lançamento: </label>
+                    <input type="text" id='ano_lançamento' name = 'ano_lançamento'>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nome">Valor: </label>
+                    <input type="valor" id='valor' name = 'valor'>
+
+                </td>
+            </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td><input type="text" id="nome"></td>
-                <td><input type="text" id="ano_lançamento"></td>
-                <td><input type="text" id="valor"></td>
-            </tr>
-            <tr>
                 <td><button type="submit" class="botao-cadastro">Cadastrar</button></td>
             </tr>
         </tbody>
