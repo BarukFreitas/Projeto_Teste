@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="static/css/cadastro.css" type="text/css">
-    <script src="Script/Validação.js"></script>
+    <script src="Script/cadastro.js"></script>
 <body>
     <div>
         <h2>Cadastro</h2>
-        <form method="get" name="cadastrar_usuario">
+        <form method="get" name="cadastrar_usuario" onsubmit="return validacao()">
             <table>
                 <tr>
                     <td><label for="email" class="texto">Informe seu email: </label></td>
