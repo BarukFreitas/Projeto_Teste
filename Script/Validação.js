@@ -1,6 +1,7 @@
 var usuario = [login, email, senha];
 const senha_padrao = '123';
 const login_padrao = 'admin';
+const email_padrao = 'admin@gmail.com'
 function validacao() {
     var login = document.getElementById("login").value;
     var senha = document.getElementById('senha').value;
