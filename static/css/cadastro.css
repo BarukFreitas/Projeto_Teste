@@ -2,11 +2,20 @@ h2 {
     text-align: center;
     text-decoration: double;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 
 label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transform: translate(-20%);
+}
+
+td {
+    text-align: right;
+}
+input.email {
+    background-color: aqua;
+    color:#3498db ;  /* blue */
 }
 
 div {
